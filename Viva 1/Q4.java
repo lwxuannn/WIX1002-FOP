@@ -84,7 +84,7 @@ public class Q4 {
  
             // ---------- STEP 2: Show the menu ----------
  
-            System.out.println("===== Flood Relief Van Dispatcher =====");
+            System.out.println("\n===== Flood Relief Van Dispatcher =====");
             System.out.printf("Food Left: %.2f kg | Fuel Left: %.2f L%n", foodLeft, fuelLeft);
  
             // Print centre 1 (no new line yet, because we may add [SERVED])
@@ -259,7 +259,7 @@ public class Q4 {
  
             // ---------- STEP 7: Print the delivery summary ----------
  
-            System.out.println("--- Delivery Summary ---");
+            System.out.println("\n--- Delivery Summary ---");
             System.out.println("Centre: " + name);
             System.out.printf("Food Required: %.2f kg%n", foodRequired);
             System.out.printf("Food Delivered: %.2f kg%n", foodDelivered);
@@ -279,7 +279,7 @@ public class Q4 {
  
         // ===================== FINAL REPORT =====================
  
-        System.out.println("===== Dispatch Report =====");
+        System.out.println("\n===== Dispatch Report =====");
         System.out.println("Families Served: " + totalFamilies);
         System.out.printf("Food Delivered: %.2f kg%n", totalFood);
         System.out.printf("Fuel Used: %.2f L%n", totalFuel);
