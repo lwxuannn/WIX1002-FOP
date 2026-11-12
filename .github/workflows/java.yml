@@ -24,5 +24,4 @@ jobs:
       - name: Compile Java
         run: |
           mkdir -p out
-          find . -name "*.java" > sources.txt
-          javac -d out @sources.txt
+          find . -name "*.java" -print0 | xargs -0 javac -d out
