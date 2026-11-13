@@ -6,7 +6,7 @@ public class Q4 {
     public static void main(String[] args) {
  
         // Create a Scanner object to read what the user types
-        Scanner sc = new Scanner(System.in);
+        try(Scanner sc = new Scanner(System.in));
  
         // ===================== DATA OF THE 4 RELIEF CENTRES =====================
  
