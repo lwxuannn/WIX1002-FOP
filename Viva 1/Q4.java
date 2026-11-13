@@ -6,8 +6,8 @@ public class Q4 {
     public static void main(String[] args) {
  
         // Create a Scanner object to read what the user types
-        try(Scanner sc = new Scanner(System.in));
- 
+        try(Scanner sc = new Scanner(System.in))
+         {
         // ===================== DATA OF THE 4 RELIEF CENTRES =====================
  
         // ----- Centre 1 -----
@@ -284,5 +284,6 @@ public class Q4 {
         System.out.printf("Food Delivered: %.2f kg%n", totalFood);
         System.out.printf("Fuel Used: %.2f L%n", totalFuel);
         System.out.printf("Food Left: %.2f kg | Fuel Left: %.2f L%n", foodLeft, fuelLeft);
+       }
     }
 }
